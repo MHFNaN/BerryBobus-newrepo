@@ -177,7 +177,6 @@ public class ModuleManager
         this.modules.add(new GamemodeChanger());
         this.modules.add(new Anchor());
         this.modules.add(new ViewModel());
-        this.modules.add(new BallzDuup());
         this.modules.add(new SendMessage());
         this.modules.add(new Cul());
         this.modules.add(new Coords());
@@ -186,7 +185,6 @@ public class ModuleManager
         //this.modules.add(new PpESP());
         this.modules.add(new AutoBully());
         this.modules.add(new PopChams());
-        this.modules.add(new AntiLog4j());
         this.modules.add(new Flatten());
         this.modules.add(new ServerInfo());
         this.modules.add(new DontDrown());

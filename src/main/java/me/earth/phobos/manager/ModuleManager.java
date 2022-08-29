@@ -179,7 +179,6 @@ public class ModuleManager
         this.modules.add(new ViewModel());
         this.modules.add(new SendMessage());
         this.modules.add(new Coords());
-        this.modules.add(new AUCrystal());
         this.modules.add(new CulMessage());
         //this.modules.add(new PpESP());
         this.modules.add(new AutoBully());

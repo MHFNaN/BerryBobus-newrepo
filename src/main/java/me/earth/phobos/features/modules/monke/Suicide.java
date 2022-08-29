@@ -7,7 +7,7 @@ import net.minecraft.network.play.client.CPacketPlayer;
 /**
  * @author ligmaballz
  */
-public class Cul
+public class Monke
         extends Module {
     private static Cul cul;
 

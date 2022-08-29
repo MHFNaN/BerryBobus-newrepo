@@ -179,7 +179,6 @@ public class ModuleManager
         this.modules.add(new Anchor());
         this.modules.add(new ViewModel());
         this.modules.add(new SendMessage());
-        this.modules.add(new Suicide());
         this.modules.add(new Coords());
         //this.modules.add(new IP());
         this.modules.add(new CulMessage());

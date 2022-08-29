@@ -25,7 +25,7 @@ public class AutoSuicide extends Module {
         } else if (suicide.getValue()) {
             mc.player.sendChatMessage("/suicide");
         } else if (legit.getValue()) {
-            Phobos.moduleManager.enableModule(Cul.class);
+            Phobos.moduleManager.enableModule(AutoSuicide.class);
         }
     }
 }

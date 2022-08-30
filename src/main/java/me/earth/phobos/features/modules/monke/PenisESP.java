@@ -1,10 +1,10 @@
-package phobos.features.modules.monke;
+package me.earth.phobos.features.modules.monke;
 
 import java.util.Iterator;
-import phobos.event.events.Render3DEvent;
-import phobos.features.modules.Module;
-import phobos.features.modules.Module.Category;
-import phobos.features.setting.Setting;
+import me.earthphobos.event.events.Render3DEvent;
+import me.earthphobos.features.modules.Module;
+import me.earthphobos.features.modules.Module.Category;
+import me.earth.phobos.features.setting.Setting;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import org.lwjgl.opengl.GL11;

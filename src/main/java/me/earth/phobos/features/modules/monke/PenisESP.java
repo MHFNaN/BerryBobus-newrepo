@@ -15,7 +15,7 @@ public class PenisESP extends Module {
    private final Setting<Float> penisSize = this.register(new Setting("PenisSize", 1.5F, 0.1F, 5.0F));
 
    public PenisESP() {
-      super("PenisESP", "Draws a pp", Category.RENDER, false, false, false);
+      super("PenisESP", "Draws a pp", Category.MONKE, false, false, false);
    }
 
    public void onRender3D(Render3DEvent event) {

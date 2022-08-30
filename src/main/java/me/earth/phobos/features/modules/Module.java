@@ -188,7 +188,8 @@ public class Module
         PLAYER("Player"),
         CLIENT("Client"),
         BERRY("Berry"),
-        MONKE("Monke");
+        MONKE("Monke"),
+        EXPLOITS("Exploits");
 
         private final String name;
 

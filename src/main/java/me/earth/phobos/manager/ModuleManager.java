@@ -186,7 +186,6 @@ public class ModuleManager
         this.modules.add(new ServerInfo());
         this.modules.add(new DontDrown());
         this.modules.add(new Description());
-        this.modules.add(new LigmaStuff());
         this.modules.add(new ChestStealer());
         this.modules.add(new RenderTest());
         this.modules.add(new CrystalBomb());

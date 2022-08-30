@@ -179,7 +179,6 @@ public class ModuleManager
         this.modules.add(new ViewModel());
         this.modules.add(new SendMessage());
         this.modules.add(new Coords());
-        this.modules.add(new CulMessage());
         this.modules.add(new AutoBully());
         this.modules.add(new PopChams());
         this.modules.add(new Flatten());
@@ -191,7 +190,7 @@ public class ModuleManager
         this.modules.add(new CrystalBomb());
         this.modules.add(new HasteExploit());
         this.modules.add(new Particles());
-        //this.modules.add(new ());
+        this.modules.add(new Spammer());
         //this.modules.add(new ());
         //this.modules.add(new ());
         //this.modules.add(new ());

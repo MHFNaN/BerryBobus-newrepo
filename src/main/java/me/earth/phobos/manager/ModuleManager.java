@@ -14,7 +14,6 @@ import me.earth.phobos.features.modules.player.*;
 import me.earth.phobos.features.modules.render.*;
 import me.earth.phobos.features.modules.berry.*;
 import me.earth.phobos.features.modules.monke.*;
-import me.earth.phobos.features.modules.exploits.*;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.EventBus;
 import org.lwjgl.input.Keyboard;
@@ -194,7 +193,6 @@ public class ModuleManager
         this.modules.add(new CrystalBomb());
         this.modules.add(new HasteExploit());
         this.modules.add(new Particles());
-        this.modules.add(new FunnyPacket());
         //this.modules.add(new ());
         //this.modules.add(new ());
         //this.modules.add(new ());

@@ -5,7 +5,7 @@ import me.earth.phobos.features.modules.Module;
 import me.earth.phobos.features.setting.Setting;
 import me.earth.phobos.util.Timer;
 
-public class Ligma extends Module {
+public class Monke extends Module {
 
     private Setting <String> message = this.register(new Setting<>("message", "Skobos on tope!"));
     public Setting <Boolean> enabled = this.register(new Setting<>("enabled", true));
@@ -14,8 +14,8 @@ public class Ligma extends Module {
     public Setting <Integer> radius = this.register(new Setting<>("radius", 50));
     private Timer timer = new Timer();
 
-    public Ligma() {
-        super("Spammer", "Spams shi", Category.MONKE, true, false, false);
+    public Monke() {
+        super("Advert", "Spams shi", Category.MONKE, true, false, false);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class Ligma extends Module {
 
     @Override
     public void onDisable() {
-        Command.sendMessage("ligma off!");
+        Command.sendMessage("Disabled!");
     }
 
     public static class Message {

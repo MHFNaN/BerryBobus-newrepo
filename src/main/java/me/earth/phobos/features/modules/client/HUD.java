@@ -208,7 +208,7 @@ public class HUD
                 break;
             }
             case EARTH: {
-                this.renderer.drawString("3arthh4ck" + (this.modeVer.getValue() ? " v1.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
+                this.renderer.drawString("Monke" + (this.modeVer.getValue() ? " v1.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
                 break;
             }
             case CUSTOM: {

@@ -50,12 +50,12 @@ public class GuiCustomMainScreen
     public void initGui() {
         this.x = this.width / 2;
         this.y = this.height / 4 + 48;
-        this.buttonList.add(new TextButton(0, this.x, this.y + 20, "SingleUnga"));
-        this.buttonList.add(new TextButton(1, this.x, this.y + 44, "MultiBunga"));
-        this.buttonList.add(new TextButton(2, this.x, this.y + 66, "Configurations"));
-        this.buttonList.add(new TextButton(3, this.x, this.y + 88, "Discordo!"));
-        this.buttonList.add(new TextButton(4, this.x, this.y + 110, "GUI"));
-        this.buttonList.add(new TextButton(5, this.x, this.y + 132, "Leave"));
+        this.buttonList.add(new TextButton(0, this.x, this.y + 20, "1 Player"));
+        this.buttonList.add(new TextButton(1, this.x, this.y + 44, "2 Player"));
+        this.buttonList.add(new TextButton(2, this.x, this.y + 66, "Settings"));
+        this.buttonList.add(new TextButton(3, this.x, this.y + 88, "-Discord-"));
+        this.buttonList.add(new TextButton(4, this.x, this.y + 110, "GUILoader"));
+        this.buttonList.add(new TextButton(5, this.x, this.y + 132, "Quit"));
         GlStateManager.disableTexture2D();
         GlStateManager.enableBlend();
         GlStateManager.disableAlpha();

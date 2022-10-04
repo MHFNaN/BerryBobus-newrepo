@@ -192,7 +192,7 @@ public class ModuleManager
         this.modules.add(new HasteExploit());
         this.modules.add(new Particles());
         //this.modules.add(new AntiPopLag());
-        //this.modules.add(new ());
+        this.modules.add(new BypassMount());
         //this.modules.add(new ());
         //this.modules.add(new ());
         //this.modules.add(new ());
@@ -239,7 +239,7 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(ChatModifier.class), new Color(255, 59, 216));
         this.moduleColorMap.put(this.getModuleByClass(Exploits.class), new Color(255, 0, 0));
         this.moduleColorMap.put(this.getModuleByClass(ExtraTab.class), new Color(161, 113, 173));
-        this.moduleColorMap.put(this.getModuleByClass(Godmode.class), new Color(1, 35, 95));
+        this.moduleColorMap.put(ountBypassthis.getModuleByClass(Godmode.class), new Color(1, 35, 95));
         this.moduleColorMap.put(this.getModuleByClass(KitDelete.class), new Color(229, 194, 255));
         this.moduleColorMap.put(this.getModuleByClass(Logger.class), new Color(186, 0, 109));
         this.moduleColorMap.put(this.getModuleByClass(MCF.class), new Color(17, 85, 255));

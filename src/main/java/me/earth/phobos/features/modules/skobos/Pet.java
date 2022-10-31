@@ -13,8 +13,7 @@ class Pet
         extends Skobos {
     private static final ResourceLocation BLACK_OCELOT_TEXTURES = new ResourceLocation ( "textures/entity/cat/black.png" );
 
-    public
-    ShoulderEntity ( ) {
+    public ShoulderEntity ( ) {
         super ( "Pet" , "Testing pets" , Module.Category.SKOBOS , true , false , false );
     }
 

@@ -1,5 +1,5 @@
 
-package me.earth.phobos.features.modules.monke;
+package me.earth.phobos.features.modules.skobos;
 
 import me.earth.phobos.Phobos;
 import me.earth.phobos.features.modules.Module;
@@ -15,7 +15,7 @@ public class AutoSuicide extends Module {
     public Setting<Boolean> legit = this.register(new Setting<>("DamageModule", false));
 
     public AutoSuicide() {
-        super("AutoSuicide", "kill urself", Module.Category.MONKE, true, false, false);
+        super("AutoSuicide", "kill urself", Module.Category.SKOBOS, true, false, false);
     }
 
     @Override

@@ -192,7 +192,7 @@ public class ModuleManager
         this.modules.add(new Particles());
         //this.modules.add(new AntiPopLag());
         this.modules.add(new AutoTotem());
-        //this.modules.add(new ());
+        this.modules.add(new Pet());
         //this.modules.add(new ());
         //this.modules.add(new ());
         //this.modules.add(new ());

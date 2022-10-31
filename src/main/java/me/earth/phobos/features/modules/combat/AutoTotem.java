@@ -55,7 +55,7 @@ class AutoTotem
     private boolean switchedForHealthReason;
 
     public
-    OffhandTolonEdition ( ) {
+    AutoTotem ( ) {
         super ( "AutoTotem" , "Allows you to switch up your Offhand." , Module.Category.COMBAT , true , false , false );
         instance = this;
     }

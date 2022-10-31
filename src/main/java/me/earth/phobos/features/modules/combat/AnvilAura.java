@@ -39,7 +39,7 @@ public class AnvilAura
     private BlockPos placeTarget;
 
     public AnvilAura() {
-        super("AnvilAura", "Useless", Module.Category.COMBAT, true, false, false);
+        super("HomoAura", "Useless", Module.Category.COMBAT, true, false, false);
     }
 
     @Override

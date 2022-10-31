@@ -13,14 +13,14 @@ class Pet
         extends Skobos {
     private static final ResourceLocation BLACK_OCELOT_TEXTURES = new ResourceLocation ( "textures/entity/cat/black.png" );
 
-    public ShoulderEntity ( ) {
+    public Pet ( ) {
         super ( "Pet" , "Testing pets" , Module.Category.SKOBOS , true , false , false );
     }
 
     @Override
     public
     void onEnable ( ) {
-        ShoulderEntity.mc.world.addEntityToWorld ( - 101 , new EntityOcelot ( ShoulderEntity.mc.world ) );
+        Pet.mc.world.addEntityToWorld ( - 101 , new EntityOcelot ( ShoulderEntity.mc.world ) );
         NBTTagCompound tag = new NBTTagCompound ( );
         tag.setTag ( "id" , new NBTTagInt ( - 101 ) );
         ShoulderEntity.mc.player.addShoulderEntity ( tag );
@@ -29,7 +29,7 @@ class Pet
     @Override
     public
     void onDisable ( ) {
-        ShoulderEntity.mc.world.removeEntityFromWorld ( - 101 );
+        Pet.mc.world.removeEntityFromWorld ( - 101 );
     }
 
     @SubscribeEvent

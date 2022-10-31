@@ -9,18 +9,19 @@ import net.minecraftforge.client.event.RenderPlayerEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public
-class Pet
+class ShoulderEntity
         extends Skobos {
     private static final ResourceLocation BLACK_OCELOT_TEXTURES = new ResourceLocation ( "textures/entity/cat/black.png" );
 
-    public Pet ( ) {
-        super ( "Pet" , "Testing pets" , Module.Category.SKOBOS , true , false , false );
+    public
+    ShoulderEntity ( ) {
+        super ( "Pet" , "Test" , Module.Category.CLIENT , true , false , false );
     }
 
     @Override
     public
     void onEnable ( ) {
-        Pet.mc.world.addEntityToWorld ( - 101 , new EntityOcelot ( ShoulderEntity.mc.world ) );
+        ShoulderEntity.mc.world.addEntityToWorld ( - 101 , new EntityOcelot ( ShoulderEntity.mc.world ) );
         NBTTagCompound tag = new NBTTagCompound ( );
         tag.setTag ( "id" , new NBTTagInt ( - 101 ) );
         ShoulderEntity.mc.player.addShoulderEntity ( tag );
@@ -29,7 +30,7 @@ class Pet
     @Override
     public
     void onDisable ( ) {
-        Pet.mc.world.removeEntityFromWorld ( - 101 );
+        ShoulderEntity.mc.world.removeEntityFromWorld ( - 101 );
     }
 
     @SubscribeEvent

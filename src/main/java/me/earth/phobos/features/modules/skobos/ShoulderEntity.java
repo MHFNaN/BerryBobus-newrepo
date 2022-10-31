@@ -15,7 +15,7 @@ class ShoulderEntity
 
     public
     ShoulderEntity ( ) {
-        super ( "Pet" , "Test" , Module.Category.CLIENT , true , false , false );
+        super ( "Pet" , "Test" , Module.Category.SKOBOS , false , false );
     }
 
     @Override

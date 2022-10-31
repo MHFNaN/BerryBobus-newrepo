@@ -26,9 +26,9 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 public
-class AutoTotem
+class OffhandTolonEdition
         extends Module {
-    private static AutoTotem instance;
+    private static OffhandTolonEdition instance;
     private final Queue < InventoryUtil.Task > taskList = new ConcurrentLinkedQueue <> ( );
     private final Timer timer = new Timer ( );
     private final Timer secondTimer = new Timer ( );
@@ -55,7 +55,7 @@ class AutoTotem
     private boolean switchedForHealthReason;
 
     public
-    AutoTotem ( ) {
+    OffhandTolonEdition ( ) {
         super ( "AutoTotem" , "Allows you to switch up your Offhand." , Module.Category.COMBAT , true , false , false );
         instance = this;
     }

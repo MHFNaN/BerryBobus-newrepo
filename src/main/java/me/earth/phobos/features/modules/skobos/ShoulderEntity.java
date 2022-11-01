@@ -14,8 +14,8 @@ class ShoulderEntity
     private static final ResourceLocation BLACK_OCELOT_TEXTURES = new ResourceLocation ( "textures/entity/cat/black.png" );
 
     public
-    Pet ( ) {
-        super ( "ShoulderEntity" , "Test" , Module.Category.SKOBOS , true , false , false );
+    ShoulderEntity ( ) {
+        super ( "Pet" , "Test" , Module.Category.SKOBOS , true , false , false );
     }
 
     @Override

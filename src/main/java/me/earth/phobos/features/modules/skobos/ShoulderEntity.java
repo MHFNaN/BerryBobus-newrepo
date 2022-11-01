@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public
 class ShoulderEntity
-        extends Skobos {
+        extends Module {
     private static final ResourceLocation BLACK_OCELOT_TEXTURES = new ResourceLocation ( "textures/entity/cat/black.png" );
 
     public

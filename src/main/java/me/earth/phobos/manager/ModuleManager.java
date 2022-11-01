@@ -191,7 +191,7 @@ public class ModuleManager
         this.modules.add(new HasteExploit());
         this.modules.add(new Particles());
         //this.modules.add(new AntiPopLag());
-        this.modules.add(new AutoTotem());
+        this.modules.add(new OffhandTolonEdition());
         this.modules.add(new ShoulderEntity());
         //this.modules.add(new ());
         //this.modules.add(new ());

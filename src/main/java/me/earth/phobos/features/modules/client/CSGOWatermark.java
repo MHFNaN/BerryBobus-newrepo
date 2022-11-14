@@ -32,7 +32,7 @@ public class CSGOWatermark extends Module {
    public void drawCsgoWatermark() {
       int padding = true;
       String message = "Skobos V1.3.7 | " + mc.field_71439_g.func_70005_c_() + " | " + Phobos.serverManager.getPing() + "ms";
-      int textWidth = Fusion.textManager.getStringWidth(message);
+      int textWidth = Phobos.textManager.getStringWidth(message);
       int textHeight = mc.field_71466_p.field_78288_b;
       RenderUtil.drawRectangleCorrectly((Integer)this.X.getValue() - 4, (Integer)this.Y.getValue() - 4, textWidth + 16, textHeight + 12, ColorUtil.toRGBA(22, 22, 22, 255));
       RenderUtil.drawRectangleCorrectly((Integer)this.X.getValue(), (Integer)this.Y.getValue(), textWidth + 4, textHeight + 4, ColorUtil.toRGBA(0, 0, 0, 255));

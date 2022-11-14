@@ -74,7 +74,7 @@ public class CommandManager
             c.execute(parts);
             return;
         }
-        Command.sendMessage("Unknown command. try 'commands' for a list of commands.");
+        Command.sendMessage("Err. Command not known do '.commands for a list of commands");
     }
 
     public Command getCommandByName(String name) {

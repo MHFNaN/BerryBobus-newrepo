@@ -10,11 +10,11 @@ public class Description extends Module {
     }
     @Override
     public void onEnable() {
-        Command.sendMessage(TextUtil.LIGHT_PURPLE + "Now showing module's descriptions in the gui");
+        Command.sendMessage(TextUtil.WHITE + "Now showing module's descriptions in the gui");
     }
 
     @Override
     public void onDisable() {
-        Command.sendMessage(TextUtil.LIGHT_PURPLE + "Now hiding module's descriptions in the gui");
+        Command.sendMessage(TextUtil.WHITE + "Now hiding module's descriptions in the gui");
     }
 }

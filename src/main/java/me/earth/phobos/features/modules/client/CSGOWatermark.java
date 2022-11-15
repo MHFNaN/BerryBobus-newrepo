@@ -38,6 +38,6 @@ public class CSGOWatermark extends Module {
       RenderUtil.drawRectangleCorrectly((Integer)this.X.getValue(), (Integer)this.Y.getValue(), textWidth + 4, textHeight + 4, ColorUtil.toRGBA(0, 0, 0, 255));
       RenderUtil.drawRectangleCorrectly((Integer)this.X.getValue(), (Integer)this.Y.getValue(), textWidth + 8, textHeight + 4, ColorUtil.toRGBA(0, 0, 0, 255));
       RenderUtil.drawRectangleCorrectly((Integer)this.X.getValue(), (Integer)this.Y.getValue(), textWidth + 8, 1, ColorUtil.rainbow((Integer)this.delay.getValue()).hashCode());
-      Fusion.textManager.drawString(message, (float)((Integer)this.X.getValue() + 3), (float)((Integer)this.Y.getValue() + 3), ColorUtil.toRGBA(255, 255, 255, 255), false);
+      Phobos.textManager.drawString(message, (float)((Integer)this.X.getValue() + 3), (float)((Integer)this.Y.getValue() + 3), ColorUtil.toRGBA(255, 255, 255, 255), false);
    }
 }

@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 public class ConfigManager
         implements Util {
     public ArrayList<Feature> features = new ArrayList();
-    public String config = "phobos/config/";
+    public String config = "skobos/config/";
     public boolean loadingConfig;
     public boolean savingConfig;
 

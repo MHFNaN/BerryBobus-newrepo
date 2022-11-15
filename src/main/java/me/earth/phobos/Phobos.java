@@ -17,11 +17,11 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "skobos", name = "Skobos", version = "1.0")
+@Mod(modid = "skobos", name = "Skobos", version = "2.9.4")
 public class Phobos {
     public static final String MODID = "skobos";
     public static final String MODNAME = "skobos";
-    public static final String MODVER = "1.0";
+    public static final String MODVER = "2.9.4";
     public static final String NAME_UNICODE = "\uA731\u1D0B\u1D0F\u0299\u1D0F\uA731";
     public static final String PHOBOS_UNICODE = "\uA731\u1D0B\u1D0F\u0299\u1D0F\uA731";
     public static final String CHAT_SUFFIX = " \u23d0 \uA731\u1D0B\u1D0F\u0299\u1D0F\uA731";
@@ -157,7 +157,7 @@ public class Phobos {
             }
             eventManager.onUnload();
             moduleManager.onUnload();
-            configManager.saveConfig(Phobos.configManager.config.replaceFirst("phobos/", ""));
+            configManager.saveConfig(Phobos.configManager.config.replaceFirst("skobos/", ""));
             moduleManager.onUnloadPost();
             timerManager.unload();
             unloaded = true;

@@ -23,7 +23,7 @@ public class ConfigCommand
         if (commands.length == 2) {
             if ("list".equals(commands[0])) {
                 String configs = "Configs: ";
-                File file = new File("bobus/");
+                File file = new File("skobos/");
                 List<File> directories = Arrays.stream(file.listFiles()).filter(File::isDirectory).filter(f -> !f.getName().equals("util")).collect(Collectors.toList());
                 StringBuilder builder = new StringBuilder(configs);
                 for (File file1 : directories) {

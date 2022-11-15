@@ -228,7 +228,7 @@ public class NoteBot
             if (event.getSetting().equals(this.loadFileSet)) {
                 String file = this.loadFileSet.getPlannedValue();
                 try {
-                    this.registers = NoteBot.createRegister(new File("phobos/notebot/" + file));
+                    this.registers = NoteBot.createRegister(new File("skobos/notebot/" + file));
                     Command.sendMessage("Loaded: " + file);
                 } catch (Exception e) {
                     Command.sendMessage("An Error occurred with " + file);

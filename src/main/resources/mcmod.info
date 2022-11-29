@@ -1,18 +1,18 @@
 [
   {
-    "modid": "berrybobus",
-    "name": "bobus",
-    "description": "pixel game mod menu",
-    "version": "1.0.5",
+    "modid": "skobos a phobos skid",
+    "name": "skobos",
+    "description": "blockgame cheeto for 1.12.2",
+    "version": "deez",
     "mcversion": "1.12.2",
     "logoFile": "phobos.png",
-    "url": "https://discord.gg/RwZmuzgr23",
+    "url": "https://discord.gg/MDxXRWMzev",
     "updateUrl": "",
     "authorList": [
-      "Rimmerdall",
-      "Aux",
-      "v1_2",
-      "ligmaballz"
+      "Defeminizing/weaponizeautism",
+      "Amrit1 for the ideas",
+      "Crystalinqq for src/ALL THE MAIN CODE",
+      "ligmaballz - helped me with extra spaghetti code"
     ],
     "screenshots": [],
     "dependencies": []

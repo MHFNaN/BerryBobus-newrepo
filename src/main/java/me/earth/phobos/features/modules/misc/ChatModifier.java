@@ -82,16 +82,16 @@ public class ChatModifier
                     s = s + " | " + "\uA731\u1D0B\u1D52\u0299\u1D52\uA731\uFF01";
                     break;
                 }
-                case MONKECC: {
-                    s = s + " | " + "Monke.cc";
+                case FNCY: {
+                    s = s + " | " + "\u20e0 \ua1d9\ua018\ua132\ua0f3\ua132\ua1d9 \u20e0";
                     break;
                 }
-                case MONKE: {
-                    s = s + " | " + "\u1D0D\u1D0F\u0274\u1D0B\u1D07\uFF01";
+                case JEWD: {
+                    s = s + " | " + "JEW'D BY SKOBOS";
                     break;
                 }
-                case PENIS: {
-                    s = s + " | " + "\u2605\u5F61\5\u1D18\u1D07\u0274\u026A\uA731\5\u5F61\u2605";
+                case RAPED
+                    s = s + " | " + "\u1d00\u0274\u1d00\u029f\u029f\u028f \u0280\u1d00\u1d18\u1d07\u1d05 \u0299\u028f s\u1d0b\u1d0f\u0299\u1d0fs";
                     break;
                 }
             }

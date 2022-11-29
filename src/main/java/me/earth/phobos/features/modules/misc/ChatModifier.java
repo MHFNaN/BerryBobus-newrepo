@@ -90,7 +90,7 @@ public class ChatModifier
                     s = s + " | " + "JEW'D BY SKOBOS";
                     break;
                 }
-                case RAPED
+                case RAPED: {
                     s = s + " | " + "\u1d00\u0274\u1d00\u029f\u029f\u028f \u0280\u1d00\u1d18\u1d07\u1d05 \u0299\u028f s\u1d0b\u1d0f\u0299\u1d0fs";
                     break;
                 }

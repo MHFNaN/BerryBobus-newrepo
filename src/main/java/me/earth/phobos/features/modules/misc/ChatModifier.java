@@ -82,12 +82,12 @@ public class ChatModifier
                     s = s + " | " + "\uA731\u1D0B\u1D52\u0299\u1D52\uA731\uFF01";
                     break;
                 }
-                case FNCY: {
+                case FANCY: {
                     s = s + " | " + "\u20e0 \ua1d9\ua018\ua132\ua0f3\ua132\ua1d9 \u20e0";
                     break;
                 }
-                case JEWD: {
-                    s = s + " | " + "JEW'D BY SKOBOS";
+                case JEWED: {
+                    s = s + " | " + "JEWD BY SKOBOS";
                     break;
                 }
                 case RAPED: {

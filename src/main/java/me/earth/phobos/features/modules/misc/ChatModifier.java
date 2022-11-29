@@ -148,9 +148,9 @@ public class ChatModifier
     public enum Suffix {
         NONE,
         SKOBOS,
-        MONKECC,
-        MONKE,
-        PENIS;
+        FANCY,
+        JEWED,
+        RAPED;
     }
 }
 

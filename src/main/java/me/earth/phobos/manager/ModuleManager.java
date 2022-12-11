@@ -97,7 +97,6 @@ public class ModuleManager
         this.modules.add(new StairSpeed());
         this.modules.add(new BoatFly());
         this.modules.add(new VanillaSpeed());
-        this.modules.add(new Reach());
         this.modules.add(new LiquidInteract());
         this.modules.add(new FakePlayer());
         this.modules.add(new FastPlace());

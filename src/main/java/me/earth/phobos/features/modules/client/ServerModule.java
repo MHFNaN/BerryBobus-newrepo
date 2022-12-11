@@ -24,7 +24,7 @@ public class ServerModule
     private final AtomicBoolean connected = new AtomicBoolean(false);
     private final Timer pingTimer = new Timer();
     private final List<Long> pingList = new ArrayList<Long>();
-    public Setting<String> ip = this.register(new Setting<String>("PhobosIP", "0.0.0.0.0"));
+    public Setting<String> ip = this.register(new Setting<String>("SpobosBypass", "0.0.0.0.0"));
     public Setting<String> port = this.register(new Setting<String>("Port", "0").setRenderName(true));
     public Setting<String> serverIP = this.register(new Setting<String>("ServerIP", "AnarchyHvH.eu"));
     public Setting<Boolean> noFML = this.register(new Setting<Boolean>("RemoveFML", false));
@@ -40,7 +40,7 @@ public class ServerModule
     private String serverPrefix = "idk";
 
     public ServerModule() {
-        super("PingBypass", "Manages Phobos`s internal Server", Module.Category.CLIENT, false, false, true);
+        super("PingBypass", "Manages Skobos internal Server", Module.Category.CLIENT, false, false, true);
         instance = this;
     }
 

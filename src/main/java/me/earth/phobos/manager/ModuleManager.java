@@ -56,14 +56,11 @@ public class ModuleManager
         this.modules.add(new MCF());
         this.modules.add(new PingSpoof());
         this.modules.add(new NoSoundLag());
-        this.modules.add(new AutoLog());
         this.modules.add(new KitDelete());
         this.modules.add(new Exploits());
-        this.modules.add(new Spammer());
         this.modules.add(new AntiVanish());
         this.modules.add(new ExtraTab());
         this.modules.add(new MobOwner());
-        this.modules.add(new Nuker());
         this.modules.add(new AutoReconnect());
         this.modules.add(new NoAFK());
         this.modules.add(new Tracker());
@@ -71,7 +68,6 @@ public class ModuleManager
         this.modules.add(new Logger());
         this.modules.add(new RPC());
         this.modules.add(new AutoGG());
-        this.modules.add(new Godmode());
         this.modules.add(new Companion());
         this.modules.add(new EntityControl());
         this.modules.add(new GhastNotifier());
@@ -104,7 +100,6 @@ public class ModuleManager
         this.modules.add(new Reach());
         this.modules.add(new LiquidInteract());
         this.modules.add(new FakePlayer());
-        this.modules.add(new TimerSpeed());
         this.modules.add(new FastPlace());
         this.modules.add(new Freecam());
         this.modules.add(new Speedmine());
@@ -115,7 +110,6 @@ public class ModuleManager
         this.modules.add(new XCarry());
         this.modules.add(new Replenish());
         this.modules.add(new NoHunger());
-        this.modules.add(new Jesus());
         this.modules.add(new Scaffold());
         this.modules.add(new EchestBP());
         this.modules.add(new TpsSync());
@@ -152,8 +146,6 @@ public class ModuleManager
         this.modules.add(new ClickGui());
         this.modules.add(new Managers());
         this.modules.add(new Components());
-        this.modules.add(new StreamerMode());
-        this.modules.add(new Capes());
         this.modules.add(new Colors());
         this.modules.add(new ServerModule());
         this.modules.add(new Screens());
@@ -252,7 +244,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(AntFackets.class), new Color(155, 186, 115));
         this.moduleColorMap.put(this.getModuleByClass(AntiVanish.class), new Color(25, 209, 135));
         this.moduleColorMap.put(this.getModuleByClass(AutoGG.class), new Color(240, 49, 110));
-        this.moduleColorMap.put(this.getModuleByClass(AutoLog.class), new Color(176, 176, 176));
         this.moduleColorMap.put(this.getModuleByClass(AutoReconnect.class), new Color(17, 85, 153));
         this.moduleColorMap.put(this.getModuleByClass(BetterPortals.class), new Color(71, 214, 187));
         this.moduleColorMap.put(this.getModuleByClass(BuildHeight.class), new Color(64, 136, 199));
@@ -261,7 +252,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(ChatModifier.class), new Color(255, 59, 216));
         this.moduleColorMap.put(this.getModuleByClass(Exploits.class), new Color(255, 0, 0));
         this.moduleColorMap.put(this.getModuleByClass(ExtraTab.class), new Color(161, 113, 173));
-        this.moduleColorMap.put(this.getModuleByClass(Godmode.class), new Color(1, 35, 95));
         this.moduleColorMap.put(this.getModuleByClass(KitDelete.class), new Color(229, 194, 255));
         this.moduleColorMap.put(this.getModuleByClass(Logger.class), new Color(186, 0, 109));
         this.moduleColorMap.put(this.getModuleByClass(MCF.class), new Color(17, 85, 255));
@@ -270,10 +260,8 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(NoHandShake.class), new Color(173, 232, 139));
         this.moduleColorMap.put(this.getModuleByClass(NoRotate.class), new Color(69, 81, 223));
         this.moduleColorMap.put(this.getModuleByClass(NoSoundLag.class), new Color(255, 56, 0));
-        this.moduleColorMap.put(this.getModuleByClass(Nuker.class), new Color(152, 169, 17));
         this.moduleColorMap.put(this.getModuleByClass(PingSpoof.class), new Color(23, 214, 187));
         this.moduleColorMap.put(this.getModuleByClass(RPC.class), new Color(0, 64, 255));
-        this.moduleColorMap.put(this.getModuleByClass(Spammer.class), new Color(140, 87, 166));
         this.moduleColorMap.put(this.getModuleByClass(ToolTips.class), new Color(209, 125, 156));
         this.moduleColorMap.put(this.getModuleByClass(Translator.class), new Color(74, 82, 15));
         this.moduleColorMap.put(this.getModuleByClass(Tracker.class), new Color(0, 255, 225));
@@ -307,8 +295,7 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(LongJump.class), new Color(228, 27, 213));
         this.moduleColorMap.put(this.getModuleByClass(NoFall.class), new Color(61, 204, 78));
         this.moduleColorMap.put(this.getModuleByClass(NoSlowDown.class), new Color(61, 204, 78));
-        this.moduleColorMap.put(this.getModuleByClass(
-                Phase.class), new Color(238, 59, 27));
+        this.moduleColorMap.put(this.getModuleByClass(Phase.class), new Color(238, 59, 27));
         this.moduleColorMap.put(this.getModuleByClass(Phase.class), new Color(186, 144, 212));
         this.moduleColorMap.put(this.getModuleByClass(SafeWalk.class), new Color(182, 186, 164));
         this.moduleColorMap.put(this.getModuleByClass(Speed.class), new Color(55, 161, 196));
@@ -327,21 +314,17 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(FakePlayer.class), new Color(37, 192, 170));
         this.moduleColorMap.put(this.getModuleByClass(FastPlace.class), new Color(217, 118, 37));
         this.moduleColorMap.put(this.getModuleByClass(Freecam.class), new Color(206, 232, 128));
-        this.moduleColorMap.put(this.getModuleByClass(Jesus.class), new Color(136, 221, 235));
         this.moduleColorMap.put(this.getModuleByClass(LiquidInteract.class), new Color(85, 223, 235));
         this.moduleColorMap.put(this.getModuleByClass(MCP.class), new Color(153, 68, 170));
         this.moduleColorMap.put(this.getModuleByClass(MultiTask.class), new Color(17, 223, 235));
         this.moduleColorMap.put(this.getModuleByClass(NoHunger.class), new Color(86, 53, 98));
-        this.moduleColorMap.put(this.getModuleByClass(Reach.class), new Color(9, 223, 187));
         this.moduleColorMap.put(this.getModuleByClass(Replenish.class), new Color(153, 223, 235));
         this.moduleColorMap.put(this.getModuleByClass(Scaffold.class), new Color(152, 166, 113));
         this.moduleColorMap.put(this.getModuleByClass(Speedmine.class), new Color(152, 166, 113));
-        this.moduleColorMap.put(this.getModuleByClass(TimerSpeed.class), new Color(255, 133, 18));
         this.moduleColorMap.put(this.getModuleByClass(TpsSync.class), new Color(93, 144, 153));
         this.moduleColorMap.put(this.getModuleByClass(TrueDurability.class), new Color(254, 161, 51));
         this.moduleColorMap.put(this.getModuleByClass(XCarry.class), new Color(254, 161, 51));
-        this.moduleColorMap.put(this.getModuleByClass(Yaw.class), new Color(115, 39, 141));
-        this.moduleColorMap.put(this.getModuleByClass(Capes.class), new Color(26, 135, 104));
+        this.moduleColorMap.put(this.getModuleByClass(Yaw.class), new Color(115, 39, 141));;
         this.moduleColorMap.put(this.getModuleByClass(ClickGui.class), new Color(26, 81, 135));
         this.moduleColorMap.put(this.getModuleByClass(Colors.class), new Color(135, 133, 26));
         this.moduleColorMap.put(this.getModuleByClass(Components.class), new Color(135, 26, 26));
@@ -352,7 +335,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(ServerModule.class), new Color(60, 110, 175));
         this.moduleColorMap.put(this.getModuleByClass(Media.class), new Color(138, 45, 13));
         this.moduleColorMap.put(this.getModuleByClass(Screens.class), new Color(165, 89, 101));
-        this.moduleColorMap.put(this.getModuleByClass(StreamerMode.class), new Color(0, 0, 0));
         this.moduleColorMap.put(this.getModuleByClass(PopChams.class), new Color(72, 0, 173));
         this.moduleColorMap.put(this.getModuleByClass(Description.class), new Color(215, 31, 31));
         for (Module module : this.modules) {

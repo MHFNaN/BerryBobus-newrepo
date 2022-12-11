@@ -12,7 +12,6 @@ import me.earth.phobos.features.modules.misc.*;
 import me.earth.phobos.features.modules.movement.*;
 import me.earth.phobos.features.modules.player.*;
 import me.earth.phobos.features.modules.render.*;
-import me.earth.phobos.features.modules.berry.*;
 import me.earth.phobos.features.modules.skobos.*;
 import me.earth.phobos.features.modules.exploits.*;
 import net.minecraftforge.common.MinecraftForge;

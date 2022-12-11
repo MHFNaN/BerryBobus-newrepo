@@ -5,7 +5,6 @@ import javax.annotation.Nullable;
 import me.earth.phobos.features.modules.movement.Flight;
 import me.earth.phobos.features.modules.movement.Phase;
 import me.earth.phobos.features.modules.player.Freecam;
-import me.earth.phobos.features.modules.player.Jesus;
 import me.earth.phobos.features.modules.render.XRay;
 import me.earth.phobos.util.EntityUtil;
 import me.earth.phobos.util.Util;

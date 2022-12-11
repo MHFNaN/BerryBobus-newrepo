@@ -172,7 +172,6 @@ public class ModuleManager
         this.modules.add(new AutoBuilder());
         this.modules.add(new Anchor());
         this.modules.add(new ViewModel());
-        this.modules.add(new SendMessage());
         this.modules.add(new Coords());
         this.modules.add(new AutoBully());
         this.modules.add(new PopChams());

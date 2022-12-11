@@ -6,7 +6,6 @@ import me.earth.phobos.features.Feature;
 import me.earth.phobos.features.gui.PhobosGui;
 import me.earth.phobos.features.modules.Module;
 import me.earth.phobos.features.modules.client.Cosmetics;
-import me.earth.phobos.features.modules.client.*;
 import me.earth.phobos.features.modules.combat.*;
 import me.earth.phobos.features.modules.misc.*;
 import me.earth.phobos.features.modules.movement.*;
@@ -43,9 +42,7 @@ public class ModuleManager
         this.modules.add(new Webaura());
         this.modules.add(new AutoArmor());
         this.modules.add(new AntiTrap());
-        this.modules.add(new BedBomb());
         this.modules.add(new ArmorMessage());
-        this.modules.add(new Crasher());
         this.modules.add(new Auto32k());
         this.modules.add(new AntiCrystal());
         this.modules.add(new AnvilAura());
@@ -146,7 +143,7 @@ public class ModuleManager
         this.modules.add(new HandColor());
         this.modules.add(new VoidESP());
         this.modules.add(new Cosmetics());
-        this.modules.add(new TestNametags());
+        this.modules.add(new \Nametags());
         this.modules.add(new CrystalScale());
         this.modules.add(new Notifications());
         this.modules.add(new HUD());
@@ -175,7 +172,6 @@ public class ModuleManager
         this.modules.add(new Coords());
         this.modules.add(new AutoBully());
         this.modules.add(new PopChams());
-        this.modules.add(new Flatten());
         this.modules.add(new ServerInfo());
         this.modules.add(new DontDrown());
         this.modules.add(new Description());
@@ -244,9 +240,7 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(AutoArmor.class), new Color(74, 227, 206));
         this.moduleColorMap.put(this.getModuleByClass(AutoCrystal.class), new Color(255, 15, 43));
         this.moduleColorMap.put(this.getModuleByClass(AutoTrap.class), new Color(193, 49, 244));
-        this.moduleColorMap.put(this.getModuleByClass(BedBomb.class), new Color(185, 80, 195));
         this.moduleColorMap.put(this.getModuleByClass(BowSpam.class), new Color(204, 191, 153));
-        this.moduleColorMap.put(this.getModuleByClass(Crasher.class), new Color(208, 66, 9));
         this.moduleColorMap.put(this.getModuleByClass(Criticals.class), new Color(204, 151, 184));
         this.moduleColorMap.put(this.getModuleByClass(HoleFiller.class), new Color(166, 55, 110));
         this.moduleColorMap.put(this.getModuleByClass(Killaura.class), new Color(255, 37, 0));
@@ -313,7 +307,8 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(LongJump.class), new Color(228, 27, 213));
         this.moduleColorMap.put(this.getModuleByClass(NoFall.class), new Color(61, 204, 78));
         this.moduleColorMap.put(this.getModuleByClass(NoSlowDown.class), new Color(61, 204, 78));
-        this.moduleColorMap.put(this.getModuleByClass(TestPhase.class), new Color(238, 59, 27));
+        this.moduleColorMap.put(this.getModuleByClass(
+                Phase.class), new Color(238, 59, 27));
         this.moduleColorMap.put(this.getModuleByClass(Phase.class), new Color(186, 144, 212));
         this.moduleColorMap.put(this.getModuleByClass(SafeWalk.class), new Color(182, 186, 164));
         this.moduleColorMap.put(this.getModuleByClass(Speed.class), new Color(55, 161, 196));

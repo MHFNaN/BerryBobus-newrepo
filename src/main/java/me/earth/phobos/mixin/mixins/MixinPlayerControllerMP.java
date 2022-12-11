@@ -4,7 +4,6 @@ import me.earth.phobos.Phobos;
 import me.earth.phobos.event.events.BlockEvent;
 import me.earth.phobos.event.events.ProcessRightClickBlockEvent;
 import me.earth.phobos.features.modules.player.BlockTweaks;
-import me.earth.phobos.features.modules.player.Reach;
 import me.earth.phobos.features.modules.player.Speedmine;
 import me.earth.phobos.features.modules.player.TpsSync;
 import net.minecraft.block.Block;
@@ -60,14 +59,7 @@ public class MixinPlayerControllerMP {
         BlockEvent event = new BlockEvent(4, pos, face);
         MinecraftForge.EVENT_BUS.post((Event)event);
     }
-
-    @Inject(method={"getBlockReachDistance"}, at={@At(value="RETURN")}, cancellable=true)
-    private void getReachDistanceHook(CallbackInfoReturnable<Float> distance) {
-        if (Reach.getInstance().isOn()) {
-            float range = distance.getReturnValue().floatValue();
-            distance.setReturnValue(Reach.getInstance().override.getValue() != false ? Reach.getInstance().reach.getValue() : Float.valueOf(range + Reach.getInstance().add.getValue().floatValue()));
-        }
-    }
+       }
 
     @Redirect(method={"processRightClickBlock"}, at=@At(value="INVOKE", target="Lnet/minecraft/item/ItemBlock;canPlaceBlockOnSide(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Z"))
     public boolean canPlaceBlockOnSideHook(ItemBlock itemBlock, World worldIn, BlockPos pos, EnumFacing side, EntityPlayer player, ItemStack stack) {

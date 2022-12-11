@@ -164,7 +164,6 @@ public class ModuleManager
         this.modules.add(new IRC());
         this.modules.add(new BowMcBomb());
         this.modules.add(new AutoKickBow());
-        this.modules.add(new AutoRonaldo());
         this.modules.add(new AutoSignKick());
         this.modules.add(new BoatPlace());
         this.modules.add(new CloseMC());

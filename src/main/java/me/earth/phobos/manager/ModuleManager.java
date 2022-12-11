@@ -169,9 +169,7 @@ public class ModuleManager
         this.modules.add(new CloseMC());
         this.modules.add(new HitMarkers());
         this.modules.add(new Shaders());
-        this.modules.add(new OffhandCrash());
         this.modules.add(new AutoBuilder());
-        this.modules.add(new GamemodeChanger());
         this.modules.add(new Anchor());
         this.modules.add(new ViewModel());
         this.modules.add(new SendMessage());
@@ -258,7 +256,7 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(Surround.class), new Color(100, 0, 150));
         this.moduleColorMap.put(this.getModuleByClass(Webaura.class), new Color(11, 161, 121));
         this.moduleColorMap.put(this.getModuleByClass(AntiCrystal.class), new Color(255, 161, 121));
-        this.moduleColorMap.put(this.getModuleByClass(AntiPackets.class), new Color(155, 186, 115));
+        this.moduleColorMap.put(this.getModuleByClass(AntFackets.class), new Color(155, 186, 115));
         this.moduleColorMap.put(this.getModuleByClass(AntiVanish.class), new Color(25, 209, 135));
         this.moduleColorMap.put(this.getModuleByClass(AutoGG.class), new Color(240, 49, 110));
         this.moduleColorMap.put(this.getModuleByClass(AutoLog.class), new Color(176, 176, 176));
